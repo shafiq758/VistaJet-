@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FourRoundWizard">
+
+  <test name="ByStoredPartBooking">
+    <classes>
+       <class name="Bystored.FourstepsWizard">
+       <methods>
+          <include name="Step1"/>
+          <include name="Step2"/>
+          <include name="Step3"/>
+          <include name="Step4"/>
+          </methods>
+          </class>
+        
+    </classes>
+  </test>
+  
+ 
+  
+</suite>  	

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ByStored]">
+  <test name="ByStoredPart2(failed)">
+    <classes>
+      <class name="Bystored.LoginWithRegisteredUser">
+        <methods>
+          <include name="LoginBooking"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Bystored.LoginWithRegisteredUser -->
+    </classes>
+  </test> <!-- ByStoredPart2(failed) -->
+</suite> <!-- Failed suite [ByStored] -->
